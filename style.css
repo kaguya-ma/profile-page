@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Righteous;
+  src: url(fonts/Righteous-Regular.ttf);
+}
+
+@font-face {
+  font-family: Questrial;
+  src: url(fonts/Questrial-Regular.ttf);
+}
+
+.navbar-ul {
+  background-color: black;
+  text-align: center;
+  margin: 0px 0px;
+  
+}
+
+.navbar {
+  font-family: Righteous;
+  text-decoration: none;
+  display: inline;
+  background-color: black;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar:hover {
+  background-color: white;
+  color: black;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: Righteous;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+
+body, html {
+  padding-top: 0%;
+  height: 100%;
+  margin-top: 0px;
+} 
+
+figure {
+  float: left;
+  margin: 0px 5px 0px 0px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+p {
+  text-align: justify;
+  margin: 0px 10px;
+  font-family: Questrial;
+}
+
+main {
+  margin-top: 0;
+}
+
+h1 {
+  font-family: Righteous;
+}
