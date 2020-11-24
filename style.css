@@ -8,28 +8,6 @@
   src: url(fonts/Questrial-Regular.ttf);
 }
 
-.navbar-ul {
-  background-color: black;
-  text-align: center;
-  margin: 0px 0px;
-  
-}
-
-.navbar {
-  font-family: Righteous;
-  text-decoration: none;
-  display: inline;
-  background-color: black;
-  color: white;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.navbar:hover {
-  background-color: white;
-  color: black;
-}
-
 
 footer {
   background-color: black;
@@ -71,4 +49,63 @@ main {
 
 h1 {
   font-family: Righteous;
+} 
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-family: Righteous;
+  font-size: 16px;
+  padding: 10px 12px;
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+
+}
+
+.dropdown .dropbtn {
+  color: white;
+  border: none;
+  background-color: black;
+  font-family: Righteous;
+  outline: none;
+  font-size: 16px;
+  padding: 10px 12px;
+}
+ 
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  background-color: white;
+  padding: 10px 12px;
+  font-size: 16px;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
